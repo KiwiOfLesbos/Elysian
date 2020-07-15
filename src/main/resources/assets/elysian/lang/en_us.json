@@ -1,5 +1,6 @@
 {
   "itemGroup.elysianTab": "Elysian",
 
-  "block.elysian.whitestone": "Whitestone"
+  "block.elysian.whitestone": "Whitestone",
+  "block.elysian.cobbled_whitestone": "Cobbled Whitestone"
 }

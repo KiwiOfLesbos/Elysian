@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraft:whitestone"
+              "name": "elysian:whitestone"
             },
             {
               "type": "minecraft:item",
@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:cobbledwhitestone"
+              "name": "elysian:cobbled_whitestone"
             }
           ]
         }
