@@ -7,5 +7,6 @@ public class ItemList {
 
     public static BlockItem WHITESTONE = new BlockItems(BlockList.WHITESTONE);
     public static BlockItem COBBLED_WHITESTONE = new BlockItems(BlockList.COBBLED_WHITESTONE);
+    public static BlockItem POLISHED_WHITESTONE = new BlockItems(BlockList.POLISHED_WHITESTONE);
 
 }

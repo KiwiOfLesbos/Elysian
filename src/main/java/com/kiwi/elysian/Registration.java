@@ -17,12 +17,14 @@ public class Registration {
     public static void onBlockRegistry(RegistryEvent.Register<Block> event) {
         event.getRegistry().register(BlockList.WHITESTONE);
         event.getRegistry().register(BlockList.COBBLED_WHITESTONE);
+        event.getRegistry().register(BlockList.POLISHED_WHITESTONE);
     }
 
     @SubscribeEvent
     public static void onItemRegistry(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(ItemList.WHITESTONE);
         event.getRegistry().register(ItemList.COBBLED_WHITESTONE);
+        event.getRegistry().register(ItemList.POLISHED_WHITESTONE);
     }
 
 }
