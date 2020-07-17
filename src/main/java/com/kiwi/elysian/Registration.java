@@ -18,6 +18,7 @@ public class Registration {
         event.getRegistry().register(BlockList.WHITESTONE);
         event.getRegistry().register(BlockList.COBBLED_WHITESTONE);
         event.getRegistry().register(BlockList.POLISHED_WHITESTONE);
+        event.getRegistry().register(BlockList.WHITESTONE_BRICK);
     }
 
     @SubscribeEvent
@@ -25,6 +26,7 @@ public class Registration {
         event.getRegistry().register(ItemList.WHITESTONE);
         event.getRegistry().register(ItemList.COBBLED_WHITESTONE);
         event.getRegistry().register(ItemList.POLISHED_WHITESTONE);
+        event.getRegistry().register(ItemList.WHITESTONE_BRICK);
     }
 
 }
