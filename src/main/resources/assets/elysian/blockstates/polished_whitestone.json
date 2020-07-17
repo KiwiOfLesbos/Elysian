@@ -1,7 +1,7 @@
 {
   "variants": {
     "": [
-      { "model": "elysian:block/whitestone" }
+      { "model": "elysian:block/polished_whitestone" }
     ]
   }
 }
