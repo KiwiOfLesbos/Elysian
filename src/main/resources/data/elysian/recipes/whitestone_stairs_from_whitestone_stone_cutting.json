@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "elysian:whitestone"
+  },
+  "result": "elysian:whitestone_stairs",
+  "count": 1
+}

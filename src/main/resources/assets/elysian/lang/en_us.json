@@ -4,5 +4,11 @@
   "block.elysian.whitestone": "Whitestone",
   "block.elysian.cobbled_whitestone": "Cobbled Whitestone",
   "block.elysian.polished_whitestone": "Polished Whitestone",
-  "block.elysian.whitestone_brick": "Whitestone Brick"
+  "block.elysian.whitestone_brick": "Whitestone Brick",
+
+  "block.elysian.whitestone_slab": "Whitestone Slab",
+
+  "block.elysian.whitestone_wall": "Whitestone Wall",
+
+  "block.elysian.whitestone_stairs": "Whitestone Stairs"
 }

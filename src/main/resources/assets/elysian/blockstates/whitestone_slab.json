@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elysian:block/whitestone_slab"
+    },
+    "type=double": {
+      "model": "elysian:block/whitestone"
+    },
+    "type=top": {
+      "model": "elysian:block/whitestone_slab_top"
+    }
+  }
+}
