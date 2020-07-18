@@ -24,6 +24,8 @@ public class Whitestone {
     public static Block WHITESTONE_BRICK = register("whitestone_brick", new Block(Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
 
 
+
+
     private static Block register(String registryName, Block thisBlock) {
         thisBlock.setRegistryName(registryName);
         BLOCKS.add(thisBlock);
