@@ -12,7 +12,7 @@ public class CobbledWhitestone extends Block {
 
     public CobbledWhitestone(String name) {
         super(Properties.create(Material.ROCK, MaterialColor.QUARTZ)
-                .hardnessAndResistance(1.5f)
+                .hardnessAndResistance(2.0f)
                 .sound(SoundType.STONE)
                 .func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)
 

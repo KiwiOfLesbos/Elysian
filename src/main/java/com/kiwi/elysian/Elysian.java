@@ -1,10 +1,9 @@
 package com.kiwi.elysian;
 
-import net.minecraft.block.Blocks;
+import com.kiwi.elysian.items.ItemList;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -17,7 +16,7 @@ public class Elysian {
     public static final ItemGroup TAB = new ItemGroup("elysianTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(Blocks.STONE_BRICKS);
+            return new ItemStack(ItemList.WHITESTONE_BRICK);
         }
     };
 
