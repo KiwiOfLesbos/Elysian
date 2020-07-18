@@ -1,6 +1,6 @@
 package com.kiwi.elysian;
 
-import com.kiwi.elysian.items.ItemList;
+import com.kiwi.elysian.blocks.Whitestone;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -16,7 +16,7 @@ public class Elysian {
     public static final ItemGroup TAB = new ItemGroup("elysianTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ItemList.WHITESTONE_BRICK);
+            return new ItemStack(Whitestone.WHITESTONE_BRICK);
         }
     };
 
