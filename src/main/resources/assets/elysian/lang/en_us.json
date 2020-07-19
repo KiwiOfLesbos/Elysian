@@ -2,8 +2,8 @@
   "itemGroup.elysianTab": "Elysian",
 
   "block.elysian.whitestone": "Whitestone",
-  "block.elysian.cobbled_whitestone": "Cobbled Whitestone",
-  "block.elysian.polished_whitestone": "Polished Whitestone",
+  "block.elysian.whitestone_cobbled": "Cobbled Whitestone",
+  "block.elysian.whitestone_polished": "Polished Whitestone",
   "block.elysian.whitestone_brick": "Whitestone Brick",
 
   "block.elysian.whitestone_slab": "Whitestone Slab",
@@ -14,5 +14,5 @@
 
   "block.elysian.whitestone_pillar": "Whitestone Pillar",
 
-  "block.elysian.whitestone_vertical_slab": "Whitestone Vertical Slab"
+  "block.elysian.whitestone_panel": "Whitestone Panel"
 }

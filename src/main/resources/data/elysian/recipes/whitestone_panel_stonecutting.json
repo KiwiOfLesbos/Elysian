@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "elysian:whitestone"
   },
-  "result": "elysian:whitestone_pillar",
-  "count": 4
+  "result": "elysian:whitestone_panel",
+  "count": 2
 }

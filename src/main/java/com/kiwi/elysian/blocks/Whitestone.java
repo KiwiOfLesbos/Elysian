@@ -4,7 +4,7 @@ import com.google.common.collect.Lists;
 import com.kiwi.elysian.Elysian;
 import com.kiwi.elysian.util.CustomPillar;
 import com.kiwi.elysian.util.CustomStairs;
-import com.kiwi.elysian.util.VerticalSlabs;
+import com.kiwi.elysian.util.PanelReg;
 import net.minecraft.block.Block;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
@@ -24,8 +24,8 @@ public class Whitestone {
     public static List<Item> BLOCK_ITEMS = Lists.newArrayList();
 
     public static Block WHITESTONE = register("whitestone", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
-    public static Block COBBLED_WHITESTONE = register("cobbled_whitestone", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(2.0f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
-    public static Block POLISHED_WHITESTONE = register("polished_whitestone", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
+    public static Block WHITESTONE_COBBLED = register("whitestone_cobbled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(2.0f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
+    public static Block WHITESTONE_POLISHED = register("whitestone_polished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
     public static Block WHITESTONE_BRICK = register("whitestone_brick", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
 
     public static final Block WHITESTONE_SLAB = register("whitestone_slab", new SlabBlock(Block.Properties.from(WHITESTONE)));
@@ -36,7 +36,7 @@ public class Whitestone {
 
     public static final Block WHITESTONE_PILLAR = register("whitestone_pillar", new CustomPillar(Block.Properties.from(WHITESTONE)));
 
-    public static final Block WHITESTONE_VERTICAL_SLAB = register("whitestone_vertical_slab", new VerticalSlabs(Block.Properties.from(WHITESTONE)));
+    public static final Block WHITESTONE_PANEL = register("whitestone_panel", new PanelReg(Block.Properties.from(WHITESTONE)));
 
 
     private static Block register(String registryName, Block thisBlock) {
