@@ -23,10 +23,10 @@ public class Whitestone {
     public static List<Block> BLOCKS = Lists.newArrayList();
     public static List<Item> BLOCK_ITEMS = Lists.newArrayList();
 
-    public static Block WHITESTONE = register("whitestone", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
-    public static Block WHITESTONE_COBBLED = register("whitestone_cobbled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(2.0f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
-    public static Block WHITESTONE_POLISHED = register("whitestone_polished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
-    public static Block WHITESTONE_BRICK = register("whitestone_brick", new Block(Block.Properties.create(Material.ROCK, MaterialColor.WOOL).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
+    public static Block WHITESTONE = register("whitestone", new Block(Block.Properties.create(Material.ROCK, MaterialColor.SNOW).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
+    public static Block WHITESTONE_COBBLED = register("whitestone_cobbled", new Block(Block.Properties.create(Material.ROCK, MaterialColor.SNOW).hardnessAndResistance(2.0f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
+    public static Block WHITESTONE_POLISHED = register("whitestone_polished", new Block(Block.Properties.create(Material.ROCK, MaterialColor.SNOW).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
+    public static Block WHITESTONE_BRICK = register("whitestone_brick", new Block(Block.Properties.create(Material.ROCK, MaterialColor.SNOW).hardnessAndResistance(1.5f, 6.0f).sound(SoundType.STONE).func_235861_h_().harvestTool(ToolType.PICKAXE).harvestLevel(0)));
 
     public static final Block WHITESTONE_SLAB = register("whitestone_slab", new SlabBlock(Block.Properties.from(WHITESTONE)));
 

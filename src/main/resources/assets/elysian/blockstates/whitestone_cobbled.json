@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      { "model": "elysian:block/whitestone_cobbled" }
+    ]
+  }
+}

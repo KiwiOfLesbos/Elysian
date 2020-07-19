@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "elysian:block/whitestone_cobbled",
+    "down": "elysian:block/whitestone_cobbled",
+    "up": "elysian:block/whitestone_cobbled",
+    "north": "elysian:block/whitestone_cobbled",
+    "east": "elysian:block/whitestone_cobbled",
+    "south": "elysian:block/whitestone_cobbled",
+    "west": "elysian:block/whitestone_cobbled"
+  }
+}
