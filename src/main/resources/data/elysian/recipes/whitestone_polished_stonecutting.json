@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "elysian:whitestone"
+    "item": "elysian:whitestone_cobbled"
   },
   "result": "elysian:whitestone_polished",
   "count": 1

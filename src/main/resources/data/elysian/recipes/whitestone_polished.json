@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "#"
+    "##",
+    "##"
   ],
   "key": {
     "#": {
-      "item": "elysian:whitestone"
+      "item": "elysian:whitestone_cobbled"
     }
   },
   "result": {
     "item": "elysian:whitestone_polished",
-    "count": 2
+    "count": 4
   }
 }
