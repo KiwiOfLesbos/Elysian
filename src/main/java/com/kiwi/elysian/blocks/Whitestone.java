@@ -4,6 +4,7 @@ import com.google.common.collect.Lists;
 import com.kiwi.elysian.Elysian;
 import com.kiwi.elysian.util.CustomPillar;
 import com.kiwi.elysian.util.CustomStairs;
+import com.kiwi.elysian.util.VerticalSlabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
@@ -34,6 +35,8 @@ public class Whitestone {
     public static final Block WHITESTONE_STAIRS = register("whitestone_stairs", new CustomStairs(WHITESTONE.getDefaultState(), Block.Properties.from(WHITESTONE)));
 
     public static final Block WHITESTONE_PILLAR = register("whitestone_pillar", new CustomPillar(Block.Properties.from(WHITESTONE)));
+
+    public static final Block WHITESTONE_VERTICAL_SLAB = register("whitestone_vertical_slab", new VerticalSlabs(Block.Properties.from(WHITESTONE)));
 
 
     private static Block register(String registryName, Block thisBlock) {
