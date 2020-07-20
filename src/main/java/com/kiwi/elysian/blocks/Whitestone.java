@@ -2,10 +2,7 @@ package com.kiwi.elysian.blocks;
 
 import com.google.common.collect.Lists;
 import com.kiwi.elysian.Elysian;
-import com.kiwi.elysian.util.CustomPillar;
-import com.kiwi.elysian.util.CustomStairs;
-import com.kiwi.elysian.util.PanelHalf;
-import com.kiwi.elysian.util.PanelReg;
+import com.kiwi.elysian.util.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
@@ -40,6 +37,8 @@ public class Whitestone {
     public static final Block WHITESTONE_PANEL = register("whitestone_panel", new PanelReg(Block.Properties.from(WHITESTONE)));
 
     public static final Block WHITESTONE_HALF_PANEL = register("whitestone_half_panel", new PanelHalf(Block.Properties.from(WHITESTONE)));
+
+    public static final Block WHITESTONE_MICRO_PANEL = register("whitestone_micro_panel", new PanelMicro(Block.Properties.from(WHITESTONE)));
 
 
     private static Block register(String registryName, Block thisBlock) {

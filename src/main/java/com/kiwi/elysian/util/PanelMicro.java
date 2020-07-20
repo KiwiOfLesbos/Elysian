@@ -18,18 +18,18 @@ import net.minecraft.world.IBlockReader;
 
 import javax.annotation.Nullable;
 
-public class PanelReg extends Block implements IWaterLoggable {
+public class PanelMicro extends Block implements IWaterLoggable {
 
     private static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
-    private static final VoxelShape SHAPE_N = Block.makeCuboidShape(0, 0, 0, 16, 16, 8);
-    private static final VoxelShape SHAPE_E = Block.makeCuboidShape(8, 0, 0, 16, 16, 16);
-    private static final VoxelShape SHAPE_S = Block.makeCuboidShape(0, 0, 8, 16, 16, 16);
-    private static final VoxelShape SHAPE_W = Block.makeCuboidShape(0, 0, 0, 8, 16, 16);
+    private static final VoxelShape SHAPE_N = Block.makeCuboidShape(0, 0, 0, 16, 16, 2);
+    private static final VoxelShape SHAPE_E = Block.makeCuboidShape(14, 0, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE_S = Block.makeCuboidShape(0, 0, 14, 16, 16, 16);
+    private static final VoxelShape SHAPE_W = Block.makeCuboidShape(0, 0, 0, 2, 16, 16);
 
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-    public PanelReg(Properties properties) {
+    public PanelMicro(Properties properties) {
         super(properties);
         this.setDefaultState(stateContainer.getBaseState().with(BlockStateProperties.WATERLOGGED, false).with(FACING, Direction.NORTH));
     }
@@ -71,4 +71,5 @@ public class PanelReg extends Block implements IWaterLoggable {
     public BlockState mirror(BlockState state, Mirror mirrorIn) {
         return state.rotate(mirrorIn.toRotation(state.get(FACING)));
     }
+
 }

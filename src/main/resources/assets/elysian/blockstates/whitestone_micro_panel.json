@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "elysian:block/whitestone_micro_panel", "y":  -90},
+    "facing=south": { "model": "elysian:block/whitestone_micro_panel", "y":  90},
+    "facing=west": { "model": "elysian:block/whitestone_micro_panel", "y":  180},
+    "facing=east": { "model": "elysian:block/whitestone_micro_panel", "y":  0}
+  }
+}
