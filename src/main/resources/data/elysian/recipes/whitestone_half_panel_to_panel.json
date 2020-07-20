@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "elysian:whitestone_half_panel"
+    }
+  },
+  "result": {
+    "item": "elysian:whitestone_panel",
+    "count": 1
+  }
+}

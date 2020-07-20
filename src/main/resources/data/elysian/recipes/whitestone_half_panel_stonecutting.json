@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "elysian:whitestone"
+  },
+  "result": "elysian:whitestone_half_panel",
+  "count": 4
+}

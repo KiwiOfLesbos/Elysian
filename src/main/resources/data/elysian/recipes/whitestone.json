@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "elysian:whitestone_whitestone"
+    "item": "elysian:whitestone_cobbled"
   },
   "result": "elysian:whitestone",
   "experience": 0.1,
