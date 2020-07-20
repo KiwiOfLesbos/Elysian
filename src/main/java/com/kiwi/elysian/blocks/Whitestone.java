@@ -3,10 +3,7 @@ package com.kiwi.elysian.blocks;
 import com.google.common.collect.Lists;
 import com.kiwi.elysian.Elysian;
 import com.kiwi.elysian.util.*;
-import net.minecraft.block.Block;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.WallBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
@@ -29,7 +26,7 @@ public class Whitestone {
     public static final Block WHITESTONE_SLAB = register("whitestone_slab", new SlabBlock(Block.Properties.from(WHITESTONE)));
 
     public static final Block WHITESTONE_WALL = register("whitestone_wall", new WallBlock(Block.Properties.from(WHITESTONE)));
-
+    
     public static final Block WHITESTONE_STAIRS = register("whitestone_stairs", new CustomStairs(WHITESTONE.getDefaultState(), Block.Properties.from(WHITESTONE)));
 
     public static final Block WHITESTONE_PILLAR = register("whitestone_pillar", new CustomPillar(Block.Properties.from(WHITESTONE)));
