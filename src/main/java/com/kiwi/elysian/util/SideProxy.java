@@ -1,9 +1,7 @@
-package com.kiwi.elysian;
+package com.kiwi.elysian.util;
 
-import com.kiwi.elysian.config.Config;
+import com.kiwi.elysian.Elysian;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.ModLoadingContext;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent;
