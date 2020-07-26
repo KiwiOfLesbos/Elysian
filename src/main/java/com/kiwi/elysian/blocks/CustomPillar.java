@@ -1,4 +1,4 @@
-package com.kiwi.elysian.util;
+package com.kiwi.elysian.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -21,6 +21,7 @@ import net.minecraft.world.IBlockReader;
 import javax.annotation.Nullable;
 
 
+@SuppressWarnings("deprecation")
 public class CustomPillar extends Block implements IWaterLoggable {
 
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
