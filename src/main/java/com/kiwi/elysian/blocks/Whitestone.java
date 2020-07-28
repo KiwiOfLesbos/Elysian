@@ -31,7 +31,7 @@ public class Whitestone {
 
     public static final Block WHITESTONE_PILLAR = register("whitestone_pillar", new CustomPillar(Block.Properties.from(WHITESTONE)));
 
-    public static final Block WHITESTONE_PANEL = register("whitestone_panel", new PanelReg(Block.Properties.from(WHITESTONE)));
+    public static final Block WHITESTONE_PANEL = register("whitestone_panel", new Panel(Block.Properties.from(WHITESTONE)));
 
     public static final Block WHITESTONE_HALF_PANEL = register("whitestone_half_panel", new PanelHalf(Block.Properties.from(WHITESTONE)));
 
