@@ -26,14 +26,19 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
 
         blockItem(Whitestone.WHITESTONE);
+        blockItem(Whitestone.WHITESTONE_BRICK);
+        blockItem(Whitestone.WHITESTONE_COBBLED);
+        blockItem(Whitestone.WHITESTONE_POLISHED);
 
     }
 
     private String name(IItemProvider item) {
+
         return item.asItem().getRegistryName().getPath();
     }
 
     private ItemModelBuilder blockItem(Block block) {
+
         return blockItem(block, "");
     }
 

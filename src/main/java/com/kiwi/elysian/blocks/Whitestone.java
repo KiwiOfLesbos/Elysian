@@ -2,7 +2,6 @@ package com.kiwi.elysian.blocks;
 
 import com.google.common.collect.Lists;
 import com.kiwi.elysian.Elysian;
-import com.kiwi.elysian.util.*;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;

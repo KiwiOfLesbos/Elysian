@@ -1,4 +1,4 @@
-package com.kiwi.elysian.util;
+package com.kiwi.elysian;
 
 import com.kiwi.elysian.blocks.Whitestone;
 import net.minecraft.block.Block;

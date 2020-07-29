@@ -2,7 +2,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[32,)"
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="All rights reserved"
+license="All Rights Reserved"
 [[mods]]
 modId="elysian"
 version="1.16.1-1.0"

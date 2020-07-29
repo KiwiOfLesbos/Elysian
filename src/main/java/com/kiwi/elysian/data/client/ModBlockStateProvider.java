@@ -18,11 +18,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
     }
 
     public ExistingFileHelper getExistingHelper() {
+
         return models().existingFileHelper;
     }
 
     @Override
     public String getName() {
+
         return "Elysian Blockstates/Block Models";
     }
 
@@ -31,10 +33,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         // Whitestone
         simpleBlock(Whitestone.WHITESTONE);
+        simpleBlock(Whitestone.WHITESTONE_BRICK);
+        simpleBlock(Whitestone.WHITESTONE_COBBLED);
+        simpleBlock(Whitestone.WHITESTONE_POLISHED);
 
     }
 
     private String name(Block block) {
+
         return block.getRegistryName().getPath();
     }
 
@@ -44,18 +50,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     }
 
     private ResourceLocation modBlockLoc(String texture) {
+
         return modLoc("block/" + texture);
     }
 
-    public void simpleBlock(Block block) {
-        simpleBlock(block);
-    }
-
-    public void simpleBlock(Block block, ModelFile model) {
-        simpleBlock(block, model);
-    }
-
-    public void simpleBlock(Block block, Function<ModelFile, ConfiguredModel[]> expander) {
-        simpleBlock(block, expander);
-    }
 }
